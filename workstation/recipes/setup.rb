@@ -24,6 +24,9 @@
 
 template '/etc/motd' do
     source 'motd.erb'
+    variables(
+        :name  => 'catalin'
+    )
     action :create
     owner 'root'
     owner 'root'
