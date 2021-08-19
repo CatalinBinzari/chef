@@ -31,3 +31,11 @@ template '/etc/motd' do
     owner 'root'
     owner 'root'
 end
+
+# cookbook_file '/home/cin/Desktop/chef /cookbooks/workstation' do
+#     source 'index.txt'
+# end
+
+remote_file '/home/cin/Desktop/chef /cookbooks/workstation/img.jpg' do
+    source 'https://image.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg'
+end
