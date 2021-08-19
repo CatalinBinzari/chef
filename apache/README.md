@@ -14,3 +14,7 @@ sudo chef-client -z -r "recipe[apache::server]"
 sudo chef-client -z -r "recipe[apache::server],recipe[workstation::setup]"
 ohai memory/total
 ohai cpu/0/mhz
+
+generate a template file: 
+    chef generate template [path_to_cookbook] [name]
+    chef generate template ./workstation  motd
