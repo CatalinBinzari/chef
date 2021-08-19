@@ -1,0 +1,10 @@
+cookbook - a fundamental unit of configuration and policy distribution
+
+each cookbook defines a scenario suck as everything needed to install abd configure MySQL, and then it contains all the components that are reqyured to support that scenario
+
+
+cookbooks structure:
+Berksfile - for managing the dependency of our cookbooks
+chefignore - exclude from chef server
+metadata - info about version/ maintainers, licese
+spec - unittesting
